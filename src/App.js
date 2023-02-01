@@ -13,6 +13,7 @@ function App() {
         <Sidebar />
         <AllRoutes />
       </Flex>
+
     </div>
   );
 }
