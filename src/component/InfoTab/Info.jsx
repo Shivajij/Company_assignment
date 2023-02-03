@@ -255,25 +255,25 @@ const Info = () => {
     {
       id: 1,
       teamName: "Sales Team",
-      eamil: "sales@com",
-      phoen: 12334456,
+      email: "sales@com",
+      phone: 12334456,
     },
     {
       id: 2,
       teamName: "Marketing Team",
-      eamil: "sales@com",
-      phoen: 12334456,
+      email: "sales@com",
+      phone: 12334456,
     },
     {
       id: 3,
       teamName: "Sales Team",
-      eamil: "sales@com",
+      email: "sales@com",
       phone: 12334456,
     },
     {
       id: 4,
       teamName: "Marketing Team",
-      eamil: "sales@com",
+      email: "sales@com",
       phone: 12334456,
     }
   ])
@@ -299,7 +299,8 @@ const Info = () => {
           <Flex gap={2}>
             <HiMail color='rgb(197,197,196)' fontSize={"30px"}/>
             <Text fontSize={"19px"} color="rgb(111,110,111)">
-              salesteam@br.in / salesteam@br.in
+             {contactInfo[contactInfo.length-1].email} /  {contactInfo[contactInfo.length-2].email} 
+             {/* {console.log(contactInfo[contactInfo.length-2].email)} */}
             </Text>
           </Flex>
           <Text bg={'rgb(255,243,243)'} p={"7px 12px"} borderRadius="50%" color='rgb(196,62,62)'>+{contactInfo?.length}</Text>
@@ -307,7 +308,7 @@ const Info = () => {
         <Flex alignItems='center' mt={2} gap={2}>
           <BsTelephoneFill color='rgb(197,197,196)' fontSize={"20px"}/>
           <Text fontSize={"19px"} color="rgb(111,110,111)">
-            +91 7743891068 / 8000004343
+           {contactInfo[contactInfo.length-1].phone} / {contactInfo[contactInfo.length-2].phone}
           </Text>
         </Flex>
       </Box>
