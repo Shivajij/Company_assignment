@@ -1,21 +1,5 @@
 
 
-
-
-
-![App Screenshot](https://drive.google.com/file/d/1a9azzMoCEcC1h-3ZwQACay0VHwuQQO_-/view?usp=share_link)
-
-
-
-![App Screenshot](https://drive.google.com/file/d/1slj3zB92WEgSLUxn8uFggoZNNXmUbovU/view?usp=share_link)
-
-
-
-
-
-``
-
-
 ## Support
 
 If you have any feedback, please reach out to me at sj461898@gmail.com
